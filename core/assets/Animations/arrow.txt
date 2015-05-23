@@ -1,0 +1,228 @@
+arrow.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pfeil mit schatten0000
+  rotate: false
+  xy: 2, 2
+  size: 6, 52
+  orig: 32, 64
+  offset: 13, 6
+  index: -1
+pfeil mit schatten0001
+  rotate: false
+  xy: 10, 2
+  size: 7, 52
+  orig: 32, 64
+  offset: 12, 6
+  index: -1
+pfeil mit schatten0002
+  rotate: false
+  xy: 19, 2
+  size: 12, 51
+  orig: 32, 64
+  offset: 9, 7
+  index: -1
+pfeil mit schatten0003
+  rotate: false
+  xy: 33, 2
+  size: 16, 50
+  orig: 32, 64
+  offset: 7, 7
+  index: -1
+pfeil mit schatten0004
+  rotate: false
+  xy: 51, 2
+  size: 21, 48
+  orig: 32, 64
+  offset: 5, 8
+  index: -1
+pfeil mit schatten0005
+  rotate: false
+  xy: 74, 2
+  size: 25, 44
+  orig: 32, 64
+  offset: 3, 10
+  index: -1
+pfeil mit schatten0006
+  rotate: false
+  xy: 101, 2
+  size: 29, 41
+  orig: 32, 64
+  offset: 1, 12
+  index: -1
+pfeil mit schatten0007
+  rotate: false
+  xy: 132, 2
+  size: 31, 38
+  orig: 32, 64
+  offset: 0, 13
+  index: -1
+pfeil mit schatten0008
+  rotate: false
+  xy: 165, 2
+  size: 32, 34
+  orig: 32, 64
+  offset: 0, 16
+  index: -1
+pfeil mit schatten0009
+  rotate: false
+  xy: 199, 2
+  size: 31, 37
+  orig: 32, 64
+  offset: 0, 15
+  index: -1
+pfeil mit schatten0010
+  rotate: false
+  xy: 2, 56
+  size: 30, 40
+  orig: 32, 64
+  offset: 1, 13
+  index: -1
+pfeil mit schatten0011
+  rotate: false
+  xy: 34, 56
+  size: 27, 44
+  orig: 32, 64
+  offset: 2, 11
+  index: -1
+pfeil mit schatten0012
+  rotate: false
+  xy: 63, 56
+  size: 23, 46
+  orig: 32, 64
+  offset: 4, 10
+  index: -1
+pfeil mit schatten0013
+  rotate: false
+  xy: 88, 56
+  size: 19, 50
+  orig: 32, 64
+  offset: 6, 8
+  index: -1
+pfeil mit schatten0014
+  rotate: false
+  xy: 109, 56
+  size: 14, 51
+  orig: 32, 64
+  offset: 8, 8
+  index: -1
+pfeil mit schatten0015
+  rotate: false
+  xy: 125, 56
+  size: 9, 52
+  orig: 32, 64
+  offset: 11, 7
+  index: -1
+pfeil mit schatten0016
+  rotate: false
+  xy: 136, 56
+  size: 6, 52
+  orig: 32, 64
+  offset: 13, 7
+  index: -1
+pfeil mit schatten0017
+  rotate: false
+  xy: 144, 56
+  size: 9, 52
+  orig: 32, 64
+  offset: 12, 7
+  index: -1
+pfeil mit schatten0018
+  rotate: false
+  xy: 155, 56
+  size: 14, 51
+  orig: 32, 64
+  offset: 10, 8
+  index: -1
+pfeil mit schatten0019
+  rotate: false
+  xy: 171, 56
+  size: 19, 50
+  orig: 32, 64
+  offset: 7, 8
+  index: -1
+pfeil mit schatten0020
+  rotate: false
+  xy: 192, 56
+  size: 23, 46
+  orig: 32, 64
+  offset: 5, 10
+  index: -1
+pfeil mit schatten0021
+  rotate: false
+  xy: 217, 56
+  size: 27, 44
+  orig: 32, 64
+  offset: 3, 11
+  index: -1
+pfeil mit schatten0022
+  rotate: false
+  xy: 2, 110
+  size: 30, 40
+  orig: 32, 64
+  offset: 1, 13
+  index: -1
+pfeil mit schatten0023
+  rotate: false
+  xy: 34, 110
+  size: 31, 37
+  orig: 32, 64
+  offset: 1, 15
+  index: -1
+pfeil mit schatten0024
+  rotate: false
+  xy: 67, 110
+  size: 32, 34
+  orig: 32, 64
+  offset: 0, 16
+  index: -1
+pfeil mit schatten0025
+  rotate: false
+  xy: 101, 110
+  size: 31, 38
+  orig: 32, 64
+  offset: 1, 13
+  index: -1
+pfeil mit schatten0026
+  rotate: false
+  xy: 134, 110
+  size: 29, 41
+  orig: 32, 64
+  offset: 2, 12
+  index: -1
+pfeil mit schatten0027
+  rotate: false
+  xy: 165, 110
+  size: 25, 44
+  orig: 32, 64
+  offset: 4, 10
+  index: -1
+pfeil mit schatten0028
+  rotate: false
+  xy: 192, 110
+  size: 21, 48
+  orig: 32, 64
+  offset: 6, 8
+  index: -1
+pfeil mit schatten0029
+  rotate: false
+  xy: 215, 110
+  size: 16, 50
+  orig: 32, 64
+  offset: 9, 7
+  index: -1
+pfeil mit schatten0030
+  rotate: false
+  xy: 233, 110
+  size: 12, 51
+  orig: 32, 64
+  offset: 11, 7
+  index: -1
+pfeil mit schatten0031
+  rotate: false
+  xy: 247, 110
+  size: 7, 52
+  orig: 32, 64
+  offset: 13, 6
+  index: -1

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="43" height="24" tilewidth="32" tileheight="32" nextobjectid="150">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32">
+  <image source="big grasstile.bmp" width="256" height="192"/>
+ </tileset>
+ <tileset firstgid="49" name="cobblesroad tileset 1" tilewidth="32" tileheight="32">
+  <image source="cobblesroad tileset 1.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="561" name="creek tileset" tilewidth="32" tileheight="32">
+  <image source="creek tileset.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="1073" name="beach tileset" tilewidth="32" tileheight="32">
+  <image source="beach tileset.bmp" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="1329" name="stone-bridge_0" tilewidth="32" tileheight="32">
+  <image source="stone-bridge_0.png" width="512" height="320"/>
+ </tileset>
+ <tileset firstgid="1489" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Ground" width="43" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt1LUBA0EQBMEXMzMzY/7RqbLQGWuUNfZ0LsuyPAWKlChToUouob1GnQZNWrTp0E1s79FnwJARYyZME9tnzFmwZMWaDdvE9h17Dhw5cebCNbH9xp0HT168+fBNbE/p59GB6EB0IDoQHYgORAeiA9GB6EB04D/7D1XoYhE=
+  </data>
+ </layer>
+ <layer name="River" width="43" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt0LEJADAMA0EV3i+l99/EbUj/4MAfqH+U7HUq6Wub2cqwlWErw1aGrfrpV1sZtjJsZdjKsJXxtg4CQB/9
+  </data>
+ </layer>
+ <layer name="Road" width="43" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztlD0OgkAQRmk4kCBisNP4E+jkBngPvY3ezxP4KLZjZTZxMsHMS17xZTebKb6dLNOhwFLp7V+zx4P1EEKu2FsPIWTAm/UQQrwDOiypA76zdLDua4M7rHCDNW4jOfQ1dh7LgVVOj7DENVZ52qwtdnjEE57xEslPfH05n8pz91Lw/6KD9X9Jwfe7Dt5XOdIdPWbrvkp2dMh3fNiMuTje1gP8KR8meCIr
+  </data>
+ </layer>
+ <layer name="Environment" width="43" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzFVsuOwjAMzIlv5kcACc7AAmfeZ1jYFf+0jkQka+Q4tlMtI0WltU3tdMZxSinNRyktaEUwobgprVkgXopt5bIl2y6Y65LiVrTWgXgptpXLhWzXiv2Lnm+Y7QV+e7o/0DoacsU9k2K1XDJ+yPZbsZ/o+VmJvZHtTuvbkCvumRSr5YJADj3o+nz/7uF1RmvPvND4p3FpbMiB75lUN/KrBY1/uC/I5QJL3j16LkAO8fcil1pc1sDrHhvq12DhJueyBVrdBZH6vd/Iy7UaLPUjx4bWrPW9EXj63KcQ4fan0KNtSY94tqBPz+zj1TaHpEc8W9CnZ/bhaNWcdcG1IekRzxb08cw+Glo1lzzLVdIjni3o45l9CqT+OFTNVr329OhWzda5i+t1iH4aAeqkxm+uV00DnpnT2z9QJxZNR2dOz/9IQJ3U+F36RV6ST+Gp51zv1ZI2T9Z8ODzneqR//Cf+AFi9qL4=
+  </data>
+ </layer>
+ <objectgroup name="Collision">
+  <object id="83" name="Tree" type="tree_big" x="164.667" y="231.333" width="20.6667" height="24.6667"/>
+  <object id="84" name="Tree" type="tree_big" x="547.667" y="102" width="20.6667" height="24.6667"/>
+  <object id="85" name="Tree" type="tree_big" x="260.667" y="583.667" width="20.6667" height="24.6667"/>
+  <object id="86" name="Tree" type="tree_big" x="133.667" y="745.667" width="20.6667" height="24.6667"/>
+  <object id="87" name="Tree" type="tree_big" x="645.667" y="710.667" width="20.6667" height="24.6667"/>
+  <object id="88" name="Tree" type="tree_big" x="803.667" y="519.667" width="20.6667" height="24.6667"/>
+  <object id="89" name="Tree" type="tree_big" x="1060.67" y="517.667" width="20.6667" height="24.6667"/>
+  <object id="90" name="Tree" type="tree_big" x="933.667" y="709" width="20.6667" height="24.6667"/>
+  <object id="91" name="Tree" type="tree_big" x="1028.67" y="102.667" width="20.6667" height="24.6667"/>
+  <object id="109" name="river_up" type="river" x="1260" y="-2" width="118" height="334"/>
+  <object id="110" name="river_down" type="river" x="1260" y="384" width="118" height="390"/>
+  <object id="113" name="wall_east" type="wall" x="1376" y="328" width="24" height="62"/>
+  <object id="114" name="wall_south" type="wall" x="-4" y="770" width="1386" height="18"/>
+  <object id="118" name="wall_north" type="wall" x="-2" y="-22" width="1378" height="18"/>
+  <object id="119" name="wall_west" type="wall" x="-24" y="-24" width="18" height="812"/>
+  <object id="120" name="Tree" type="tree_medium" x="983.833" y="257.833" width="17.5" height="18.8333"/>
+  <object id="122" name="Tree" type="tree_medium" x="887.75" y="163.083" width="17.5" height="18.8333"/>
+  <object id="123" name="Tree" type="tree_medium" x="1177" y="97.5" width="17.5" height="18.8333"/>
+  <object id="124" name="Tree" type="tree_medium" x="919.583" y="512.917" width="17.5" height="18.8333"/>
+  <object id="125" name="Tree" type="tree_medium" x="631.417" y="512.667" width="17.5" height="18.8333"/>
+  <object id="126" name="Tree" type="tree_medium" x="503.432" y="673.311" width="17.5" height="18.8333"/>
+  <object id="127" name="Tree" type="tree_medium" x="1143.25" y="707.25" width="17.5" height="18.8333"/>
+  <object id="128" name="Tree" type="tree_medium" x="216.75" y="355.583" width="17.5" height="18.8333"/>
+  <object id="129" name="Tree" type="tree_medium" x="375.5" y="226.083" width="17.5" height="18.8333"/>
+  <object id="130" name="Tree" type="tree_medium" x="55.75" y="97.5833" width="17.5" height="18.8333"/>
+  <object id="131" name="Tree" type="tree_small" x="507.273" y="264.364" width="10" height="12.1818"/>
+  <object id="132" name="Tree" type="tree_small" x="155" y="456.455" width="10" height="12.1818"/>
+  <object id="133" name="Tree" type="tree_small" x="283" y="137.159" width="10" height="12.1818"/>
+  <object id="134" name="Tree" type="tree_small" x="827.25" y="616.909" width="10" height="12.1818"/>
+  <object id="135" name="Tree" type="tree_small" x="1179.67" y="296.576" width="10" height="12.1818"/>
+  <object id="144" name="Rock" type="rock" x="578" y="288.333" width="28" height="30.3333"/>
+  <object id="145" name="Rock" type="rock" x="386.667" y="65.8333" width="28" height="30.3333"/>
+  <object id="146" name="Rock" type="rock" x="66" y="545.083" width="28" height="30.3333"/>
+  <object id="147" name="Rock" type="rock" x="1057.45" y="672.652" width="28" height="30.3333"/>
+  <object id="148" name="Rock" type="rock" x="1120.75" y="545.083" width="28" height="30.3333"/>
+  <object id="149" name="Rock" type="rock" x="1120.75" y="160.333" width="28" height="30.3333"/>
+ </objectgroup>
+ <layer name="foreground" width="43" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztzrENgCAUANHfMKCKCyguILC/V1vYSsK95PqLkCRJM1lSxEobZdrT30ffDv5OKnQN/nrzV6lRH/xVkqS3B9zJBT0=
+  </data>
+ </layer>
+</map>
