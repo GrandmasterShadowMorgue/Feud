@@ -13,7 +13,9 @@ import com.badlogic.gdx.math.Vector2;
 
 public class Enemy extends AbstractCharacter {
 	
-	public Enemy(Type type) {
+	private boolean isRespawnable;
+	
+	public Enemy(Type type, boolean isRespawnable) {
 		
 		this.health = type.health;
 		this.mana = type.mana;
@@ -27,6 +29,7 @@ public class Enemy extends AbstractCharacter {
 		this.width = 32f;
 		this.height = 32f;
 		this.boundingBox = new Rectangle(this.position.x - (this.width/2), this.position.y-(this.height/2), this.width, this.height);
+		this.isRespawnable = isRespawnable;
 	}
 	
 	public enum Type {

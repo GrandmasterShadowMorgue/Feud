@@ -41,9 +41,6 @@ public class World {
   		this.collidables = map.getLayers().get("Collision").getObjects();
   		xColliding = false;
   		yColliding = false;
-  		enemies.add(new Enemy(Enemy.Type.HUMANOID));
-  		enemies.add(new Enemy(Enemy.Type.HUMANOID));
-  		enemies.add(new Enemy(Enemy.Type.UNDEAD));
 	}
 	
 	public Player getPlayer() { return this.player;}

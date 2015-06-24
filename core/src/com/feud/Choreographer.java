@@ -10,42 +10,42 @@
 package com.feud;
 
 public class Choreographer {
-	private Player player;
+	private AbstractCharacter character;
 	
-	public Choreographer(Player player) {
+	public Choreographer(AbstractCharacter player) {
 		
-		this.player = player;
+		this.character = player;
 	}
 	
 	public void setDirection(float x, float y) {
 		
-		this.player.direction.x = x;
-		this.player.direction.y = y;
+		this.character.direction.x = x;
+		this.character.direction.y = y;
 	}
 	
 	public void setMoving(boolean bool) {
 		
-		this.player.isMoving = bool;
+		this.character.isMoving = bool;
 		
-		if(this.player.isMoving) {
+		if(this.character.isMoving) {
 			
-			this.player.isAttacking = false;
+			this.character.isAttacking = false;
 		}
 	}
 
 	
 	public void setRunning(boolean bool) {
 		
-		this.player.isRunning = bool;
+		this.character.isRunning = bool;
 	}
 	
 	public void setAttacking(boolean bool) {
 		
-		this.player.isAttacking = bool;
+		this.character.isAttacking = bool;
 		
-		if(this.player.isAttacking) {
+		if(this.character.isAttacking) {
 			
-			this.player.isMoving = false;
+			this.character.isMoving = false;
 		}			
 	}
 }
